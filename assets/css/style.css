@@ -16,7 +16,7 @@ body {
 
 /* 左侧菜单栏 */
 .sidebar {
-  width: 180px; /* 确保菜单栏足够窄 */
+  width: 100px; /* 确保菜单栏足够窄 */
   background-color: #f5f5f5; /* 背景颜色稍微浅一些 */
   padding: 20px;
   border-right: 2px solid #ddd;
@@ -59,7 +59,7 @@ body {
 
 h1, h2 {
   color: #007bff; /* 大标题蓝色 */
-  font-size: 2.5em; /* 更大的标题 */
+  font-size: 2em; /* 更大的标题 */
   font-weight: bold;
   margin-bottom: 20px; /* 给大标题增加底部间距 */
 }
