@@ -91,8 +91,8 @@ h2 {
   width: 250px; /* 照片大小 */
   height: auto;
   margin-right: 30px;
-  border-radius: 0;
-  border: none;
+  border-radius: 0; /* 保持直角 */
+  border: none; /* 移除边框 */
 }
 
 .info p {
@@ -116,5 +116,5 @@ h2 {
 
 /* 删除顶部横线 */
 header {
-  display: none;  /* 如果有header，隐藏它 */
+  display: none;  /* 隐藏任何可能导致的顶部横线 */
 }

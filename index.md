@@ -6,7 +6,7 @@ layout: default
   <div class="sidebar">
     <nav class="menu">
       <ul>
-        <li><a href="#about">About Me</a></li>
+        <li><a href="#about" class="current">About Me</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#services">Services</a></li>
       </ul>
@@ -23,6 +23,9 @@ layout: default
           <p>School of Microelectronics & State Key Laboratory of Integrated Chips and Systems,</p>
           <p>Fudan University, Shanghai, China</p>
           <p>Contact: <a href="mailto:zhchen17@fudan.edu.cn">zhchen17@fudan.edu.cn</a></p>
+          <!-- 添加CV链接和名言 -->
+          <p><a href="path/to/your/cv.pdf" target="_blank">Download CV</a></p>
+          <p><em>“If I knew what I was doing, it wouldn't be called research.” - Albert Einstein</em></p>
         </div>
       </div>
     </section>
@@ -35,13 +38,6 @@ layout: default
     <section id="services">
       <h2>Services</h2>
       <p>List of services...</p>
-    </section>
-
-    <!-- 添加 CV 超链接和名言 -->
-    <section id="cv">
-      <h2>CV/Resume</h2>
-      <p><a href="path/to/your/cv.pdf" target="_blank">Download CV</a></p>
-      <p><em>“If I knew what I was doing, it wouldn't be called research.” - Albert Einstein</em></p>
     </section>
   </div>
 </div>
