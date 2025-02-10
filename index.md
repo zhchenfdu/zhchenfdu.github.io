@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="container">
+<<<<<<< HEAD
 
   <!-- 左侧菜单栏 -->
   <div class="sidebar">
@@ -15,6 +16,8 @@ layout: default
       </ul>
     </div>
   </div>
+=======
+>>>>>>> parent of 9364afd (25)
 
   <!-- 右侧主要内容区域 -->
   <div class="main-content">
