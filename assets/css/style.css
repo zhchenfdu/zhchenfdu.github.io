@@ -109,9 +109,14 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* 隐藏顶部的横线 */
 header {
-  display: none;  /* 确保没有顶部横线 */
+  display: none;
+  border: none;  /* 确保没有边框 */
+}
+
+body {
+  margin-top: 0; /* 确保没有顶部空白 */
+  padding-top: 0; /* 确保没有顶部内边距 */
 }
 
 /* 隐藏所有 hr 标签 */
@@ -122,9 +127,4 @@ hr {
 /* 移除任何可能的顶部边框 */
 nav, section, .main-content, body {
   border-top: none; /* 移除顶部的边框 */
-}
-
-/* 清除顶部的多余空白区域 */
-body {
-  margin-top: 0; /* 确保没有顶部空白 */
 }

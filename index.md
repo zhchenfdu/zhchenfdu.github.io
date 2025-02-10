@@ -3,6 +3,16 @@ layout: default
 ---
 
 <div class="container">
+  <div class="sidebar">
+    <nav class="menu">
+      <ul>
+        <li><a href="#about" class="current">About Me</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#cv">CV/Resume</a></li> <!-- 将CV作为独立菜单项 -->
+      </ul>
+    </nav>
+  </div>
 
   <div class="main-content">
     <section id="about">
