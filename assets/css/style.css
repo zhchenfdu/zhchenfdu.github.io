@@ -16,8 +16,8 @@ body {
 
 /* 左侧菜单栏 */
 .sidebar {
-  width: 100px; /* 确保菜单栏足够窄 */
-  background-color: #f5f5f5; /* 背景颜色稍微浅一些 */
+  width: 150px; /* 缩小左侧栏的宽度 */
+  background-color: #f5f5f5; /* 更合适的背景颜色 */
   padding: 20px;
   border-right: 2px solid #ddd;
 }
@@ -41,13 +41,13 @@ body {
 }
 
 .menu a:hover {
-  color: #007bff; /* 悬停时显示蓝色 */
+  color: #0073b1; /* 深蓝色 */
   text-decoration: underline;
 }
 
 /* 当前菜单项样式 */
 .menu .current {
-  color: #007bff; /* 当前菜单项颜色 */
+  color: #0073b1; /* 当前菜单项颜色 */
   text-decoration: underline; /* 当前菜单项下划线 */
 }
 
@@ -58,14 +58,20 @@ body {
 }
 
 h1, h2 {
-  color: #007bff; /* 大标题蓝色 */
-  font-size: 2em; /* 更大的标题 */
+  color: #0073b1; /* 使用更稳重的蓝色 */
+  font-size: 2em; /* 调整为较小的字号 */
   font-weight: bold;
-  margin-bottom: 20px; /* 给大标题增加底部间距 */
+  margin-bottom: 10px; /* 给标题增加间距 */
 }
 
-section {
-  margin-bottom: 50px; /* 增加各部分的间距 */
+/* 标题下方的浅灰色横线 */
+h1, h2 {
+  border-bottom: 2px solid #d3d3d3; /* 浅灰色横线 */
+  padding-bottom: 10px; /* 增加横线与文字的距离 */
+}
+
+h2 {
+  font-size: 1.8em; /* 后续小标题稍小的字体 */
 }
 
 /* 个人信息区域 */
@@ -84,12 +90,12 @@ section {
 }
 
 .info p {
-  font-size: 1.5em; /* 增加个人信息的字体 */
+  font-size: 1.3em; /* 缩小个人信息的字号，使其与小标题一致 */
   margin: 15px 0; /* 增加上下间距 */
 }
 
 .info a {
-  color: #007bff;
+  color: #0073b1; /* 蓝色链接 */
   text-decoration: none;
 }
 
@@ -98,31 +104,6 @@ section {
 }
 
 .info h1 {
-  font-size: 3em;  /* 更大的姓名标题 */
+  font-size: 2.5em;  /* 姓名标题字号更小 */
   margin-bottom: 10px;
-}
-
-/* 重置浏览器默认样式 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* 确保所有元素的边框和内边距被包含在宽高内 */
-}
-
-/* 确保 body 和 html 没有额外的外边距 */
-html, body {
-  height: 100%;  /* 确保页面内容填充整个屏幕 */
-}
-
-/* 其他页面元素的样式重置 */
-body {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  line-height: 1.6; /* 增加行高，提升可读性 */
-}
-
-/* 进一步清理可能存在的顶部空白 */
-header, section, footer {
-  margin: 0;
-  padding: 0;
 }
