@@ -2,18 +2,23 @@
 layout: default
 ---
 
-<div class="sidebar">
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#cv">CV</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#publications">Publications</a></li>
-  </ul>
-</div>
-
 <div class="container">
+
+  <!-- 左侧菜单栏 -->
+  <div class="sidebar">
+    <div class="menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#publications">Publications</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 右侧主要内容区域 -->
   <div class="main-content">
-    <section id="home">
+    <section id="about">
       <div class="profile-header">
         <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="我的照片" class="profile-img"/>
         <div class="info">
@@ -32,7 +37,7 @@ layout: default
     </section>
 
     <section id="services">
-      <h2>Services</h2>
+      <h2>Services</h2>   
       <p>List of services...</p>
     </section>
 
