@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 18px;  /* 设置全局字体大小 */
 }
 
 /* 容器布局 */
@@ -14,12 +15,11 @@ body {
 
 /* 左侧菜单栏 */
 .sidebar {
-  width: 150px; /* 缩小左侧栏的宽度 */
+  width: 180px; /* 更窄的菜单栏 */
   background-color: #f8f8f8;
   padding: 20px;
   border-right: 2px solid #ddd;
 }
-
 
 .menu ul {
   list-style-type: none;
@@ -30,19 +30,16 @@ body {
   margin-bottom: 15px;
 }
 
-/* 左侧菜单项 */
 .menu a {
   text-decoration: none;
   color: #000;
-  font-size: 16px; /* 可以调整字体大小 */
+  font-size: 18px;
   font-weight: bold;
-  padding: 8px 0; /* 增加菜单项的上下间距 */
 }
 
 .menu a:hover {
   text-decoration: underline;
 }
-
 
 /* 右侧主要内容区域 */
 .main-content {
@@ -50,30 +47,38 @@ body {
   padding-left: 30px;
 }
 
-h2, h1 {
+h1, h2 {
   color: #333;
+  font-size: 2.5em; /* 增大大标题的字体 */
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 30px;
 }
 
 section {
   margin-bottom: 40px;
 }
 
-/* 个人信息部分 */
-.profile-info {
+/* 个人信息区域 */
+.profile-header {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .profile-img {
-  width: 250px; /* 保持适当的比例 */
+  width: 300px; /* 保持适当的比例 */
   height: auto;
   margin-right: 20px;
+  border-radius: 5px;
   border: 2px solid #ddd;
 }
 
 .info p {
-  font-size: 1.2em;
-  margin: 5px 0;
+  font-size: 1.5em; /* 调整个人信息字体大小 */
+  margin: 10px 0;
 }
 
 .info a {
@@ -83,4 +88,9 @@ section {
 
 .info a:hover {
   text-decoration: underline;
+}
+
+.info h1 {
+  font-size: 3em;  /* 增大姓名标题字体 */
+  margin-bottom: 10px;
 }
