@@ -20,8 +20,8 @@ layout: default
         <div class="info">
           <h1>Zihao Chen</h1>
           <p><strong>Ph.D. Candidate</strong></p>
-          <p>School of Microelectronics & State Key Laboratory of Integrated Chips and Systems,</p>
-          <p>Fudan University, Shanghai, China</p>
+          <p>School of Microelectronics & State Key Laboratory of Integrated Chips and Systems</p>
+          <p>Fudan University</p>
           <p>Contact: <a href="mailto:zhchen17@fudan.edu.cn">zhchen17@fudan.edu.cn</a></p>
         </div>
       </div>

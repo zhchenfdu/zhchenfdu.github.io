@@ -64,7 +64,7 @@ section {
 /* 个人信息区域 */
 .profile-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* 修改这里，确保姓名和图片顶部对齐 */
   margin-bottom: 20px;
 }
 
@@ -73,7 +73,8 @@ section {
   height: auto;
   margin-right: 20px;
   border-radius: 5px;
-  border: 2px solid #ddd;
+  /* 移除边框 */
+  border: none;
 }
 
 .info p {
