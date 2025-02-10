@@ -117,3 +117,8 @@ header {
 body, .container {
   margin-top: 0; /* 确保没有顶部空白 */
 }
+
+/* 隐藏默认的站点标题 */
+h1.site-title {
+  display: none;
+}
