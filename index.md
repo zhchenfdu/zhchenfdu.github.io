@@ -37,7 +37,7 @@ layout: default
     </section>
 
     <section id="services">
-      <h2>Services</h2>   
+      <h2>Services</h2>
       <p>List of services...</p>
     </section>
 
