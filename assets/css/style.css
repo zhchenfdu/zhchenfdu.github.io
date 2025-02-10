@@ -15,8 +15,8 @@ body {
 
 /* 左侧菜单栏 */
 .sidebar {
-  width: 180px; /* 更窄的菜单栏 */
-  background-color: #f8f8f8;
+  width: 150px; /* 缩小左侧栏的宽度 */
+  background-color: #f0f0f0; /* 更合适的背景颜色 */
   padding: 20px;
   border-right: 2px solid #ddd;
 }
@@ -32,13 +32,19 @@ body {
 
 .menu a {
   text-decoration: none;
-  color: #000;
+  color: #333;
   font-size: 18px;
   font-weight: bold;
 }
 
 .menu a:hover {
   text-decoration: underline;
+}
+
+/* 当前菜单项 */
+.menu .current {
+  color: #007bff; /* 当前菜单项为蓝色 */
+  text-decoration: underline; /* 使用下划线来标记当前项 */
 }
 
 /* 右侧主要内容区域 */
@@ -48,7 +54,7 @@ body {
 }
 
 h1, h2 {
-  color: #333;
+  color: #007bff; /* 蓝色大标题 */
   font-size: 2.5em; /* 增大大标题的字体 */
   font-weight: bold;
 }
@@ -64,7 +70,7 @@ section {
 /* 个人信息区域 */
 .profile-header {
   display: flex;
-  align-items: flex-start; /* 修改这里，确保姓名和图片顶部对齐 */
+  align-items: flex-start; /* 确保姓名和图片顶部对齐 */
   margin-bottom: 20px;
 }
 
@@ -72,8 +78,8 @@ section {
   width: 300px; /* 保持适当的比例 */
   height: auto;
   margin-right: 20px;
-  border-radius: 5px;
-  /* 移除边框 */
+  /* 移除圆角和边框 */
+  border-radius: 0;
   border: none;
 }
 
