@@ -1,4 +1,4 @@
-/* 重置所有元素的边框和外边距 */
+/* 重置浏览器默认样式 */
 * {
   margin: 0;
   padding: 0;
@@ -13,28 +13,118 @@ html, body {
   border: none; /* 移除任何边框 */
 }
 
-/* 移除 hr 标签 */
+/* 左侧菜单栏 */
+.sidebar {
+  width: 130px; /* 缩小菜单栏 */
+  background-color: #f5f5f5; /* 菜单栏背景颜色 */
+  padding: 10px;
+  margin: 0;  /* 去除菜单栏的边距 */
+  border-right: 2px solid #ddd;
+  position: fixed; /* 固定菜单栏 */
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1; /* 确保菜单栏显示在内容前面 */
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px; /* 增加菜单项间距，缩小间距 */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding: 8px 0; /* 缩小间距 */
+}
+
+.menu a:hover {
+  color: #0073b1; /* 深蓝色 */
+  text-decoration: underline;
+}
+
+/* 右侧主要内容区域 */
+.main-content {
+  flex: 1;
+  padding-left: 30px;
+  margin-left: 150px;  /* 保证右侧内容区不被菜单栏遮挡 */
+  z-index: 0; /* 确保右侧内容区在菜单栏之后 */
+}
+
+h1, h2 {
+  color: #0073b1; /* 使用稳重的蓝色 */
+  font-size: 1.8em; /* 缩小标题字体 */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* 标题下方的浅灰色横线 */
+h1, h2 {
+  border-bottom: 2px solid #d3d3d3; /* 浅灰色横线 */
+  padding-bottom: 10px; /* 增加横线与文字的距离 */
+}
+
+h2 {
+  font-size: 1.6em; /* 后续小标题稍小的字体 */
+}
+
+/* 个人信息区域 */
+.profile-header {
+  display: flex;
+  align-items: flex-start; /* 姓名与照片对齐 */
+  margin-bottom: 10px;
+}
+
+.profile-img {
+  width: 250px; /* 照片大小 */
+  height: auto;
+  margin-right: 30px;
+  border-radius: 0; /* 保持直角 */
+  border: none; /* 移除边框 */
+}
+
+.info p {
+  font-size: 1.2em; /* 缩小个人信息的字号 */
+  margin: 10px 0;
+}
+
+.info a {
+  color: #0073b1;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.info h1 {
+  font-size: 2.2em;  /* 姓名标题字号 */
+  margin-bottom: 10px;
+}
+
+/* 隐藏顶部的横线 */
+header {
+  display: none;  /* 确保没有顶部横线 */
+}
+
+/* 隐藏所有 hr 标签 */
 hr {
   display: none; /* 隐藏所有 hr 标签 */
 }
 
-/* 确保顶部没有横线 */
-header {
-  display: none;  /* 隐藏 header */
-  border: none; /* 去除任何边框 */
+/* 移除任何可能的顶部边框 */
+nav, section, .main-content, body {
+  border-top: none; /* 移除顶部的边框 */
 }
 
-nav, section, .main-content {
-  border-top: none; /* 移除任何顶部的边框 */
-  margin-top: 0; /* 确保没有多余的空白 */
-}
-
+/* 清除顶部的多余空白区域 */
 body {
-  border-top: none; /* 去除 body 上的任何边框 */
-}
-
-/* 进一步清理页面顶部 */
-.container {
-  margin-top: 0; /* 去除顶部的外边距 */
-  padding-top: 0; /* 去除顶部的内边距 */
+  margin-top: 0; /* 确保没有顶部空白 */
 }
