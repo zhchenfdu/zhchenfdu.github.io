@@ -82,11 +82,15 @@ body {
 }
 
 h1, h2 {
-  color: #0073b1;
   font-size: 1.8em;
   font-weight: bold;
   margin-bottom: 10px;
-  border-bottom: none; /* 清除横线 */
+  padding-bottom: 10px;
+}
+
+/* 临时添加横线的类 */
+h1.with-border, h2.with-border {
+  border-bottom: 2px solid #d3d3d3;
 }
 
 h2 {
