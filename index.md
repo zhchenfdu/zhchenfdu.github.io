@@ -20,8 +20,8 @@ layout: default
         <div class="info">
           <h1>Zihao Chen</h1>
           <p><strong>Ph.D. Candidate</strong></p>
-          <p>School of Microelectronics & State Key Laboratory of Integrated Chips and Systems</p>
-          <p>Fudan University</p>
+          <p>School of Microelectronics & State Key Laboratory of Integrated Chips and Systems,</p>
+          <p>Fudan University, Shanghai, China</p>
           <p>Contact: <a href="mailto:zhchen17@fudan.edu.cn">zhchen17@fudan.edu.cn</a></p>
         </div>
       </div>
@@ -35,6 +35,13 @@ layout: default
     <section id="services">
       <h2>Services</h2>
       <p>List of services...</p>
+    </section>
+
+    <!-- 添加 CV 超链接和名言 -->
+    <section id="cv">
+      <h2>CV/Resume</h2>
+      <p><a href="path/to/your/cv.pdf" target="_blank">Download CV</a></p>
+      <p><em>“If I knew what I was doing, it wouldn't be called research.” - Albert Einstein</em></p>
     </section>
   </div>
 </div>
