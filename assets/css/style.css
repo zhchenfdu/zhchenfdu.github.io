@@ -122,3 +122,21 @@ body, .container {
 h1.site-title {
   display: none;
 }
+
+/* 删除顶部所有可能导致的横线 */
+hr {
+  display: none; /* 隐藏所有 hr 标签 */
+}
+
+header {
+  border: none; /* 确保 header 没有边框 */
+}
+
+nav, section, .main-content {
+  border-top: none; /* 移除可能的顶部边框 */
+}
+
+/* 确保顶部没有不必要的边框 */
+body {
+  border-top: none; /* 移除 body 上的边框 */
+}
