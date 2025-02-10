@@ -12,8 +12,9 @@ body {
   margin: 20px;
 }
 
+/* 左侧菜单栏 */
 .sidebar {
-  width: 250px;
+  width: 200px; /* 更窄的菜单栏 */
   background-color: #f8f8f8;
   padding: 20px;
   border-right: 2px solid #ddd;
@@ -30,21 +31,22 @@ body {
 
 .menu a {
   text-decoration: none;
-  color: #007bff;
+  color: #000;
   font-size: 18px;
+  font-weight: bold; /* 加粗 */
 }
 
 .menu a:hover {
   text-decoration: underline;
 }
 
+/* 右侧主要内容区域 */
 .main-content {
   flex: 1;
   padding-left: 30px;
 }
 
-h2 {
-  font-size: 2em;
+h2, h1 {
   color: #333;
 }
 
@@ -52,24 +54,29 @@ section {
   margin-bottom: 40px;
 }
 
-/* 个人信息区域 */
+/* 个人信息部分 */
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
 .profile-img {
-  width: 300px; /* 保持原始比例 */
+  width: 250px; /* 保持适当的比例 */
   height: auto;
-  margin-bottom: 20px;
+  margin-right: 20px;
   border: 2px solid #ddd;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.profile-img img {
-  max-width: 100%;
-  height: auto;
+.info p {
+  font-size: 1.2em;
+  margin: 5px 0;
 }
 
-h2 {
-  border-bottom: 2px solid #007bff;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+.info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
 }
