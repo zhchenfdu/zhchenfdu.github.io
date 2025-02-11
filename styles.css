@@ -1,0 +1,46 @@
+/* Reset the default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body settings */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f0f0f0;  /* Light gray background */
+    color: #333;  /* Dark text color for readability */
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #dcdcdc; /* Light gray color for the sidebar */
+    width: 200px;  /* Keep the sidebar narrow */
+    height: 100vh;  /* Full height of the viewport */
+    position: fixed;  /* Fix the sidebar to the left of the screen */
+    top: 0;
+    left: 0;
+    padding-top: 20px;  /* Padding from the top */
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    margin-bottom: 20px;  /* Space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;  /* Dark color for the text */
+    font-size: 16px;  /* Small font size */
+    display: block;  /* Make the entire area of the link clickable */
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #a8a8a8;  /* Hover effect with slightly darker gray */
+    color: #000;  /* Darker text color on hover */
+}
