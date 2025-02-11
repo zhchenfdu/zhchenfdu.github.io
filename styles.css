@@ -15,12 +15,12 @@ body {
 /* Sidebar styles */
 .sidebar {
     background-color: #dcdcdc; /* Light gray color for the sidebar */
-    width: 160px;  /* Narrower sidebar */
+    width: 150px;  /* Narrower sidebar */
     height: 100vh;  /* Full height of the viewport */
     position: fixed;  /* Fix the sidebar to the left of the screen */
     top: 0;
     left: 0;
-    padding-top: 20px;  /* Padding from the top */
+    padding-top: 10px;  /* Padding from the top */
 }
 
 nav ul {
@@ -29,14 +29,14 @@ nav ul {
 }
 
 nav ul li {
-    margin-bottom: 20px;  /* Space between menu items */
+    margin-bottom: 10px;  /* Space between menu items */
     text-align: center;  /* Center the text */
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;  /* Dark color for the text */
-    font-size: 18px;  /* Larger font size */
+    font-size: 20px;  /* Larger font size */
     display: block;  /* Make the entire area of the link clickable */
     padding: 12px 15px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -70,7 +70,7 @@ nav ul li a.active {
 }
 
 .profile-img {
-    width: 400px;  /* Increased size of the profile image */
+    width: 320px;  /* Increased size of the profile image */
     height: auto;
     margin-right: 20px;
 }
