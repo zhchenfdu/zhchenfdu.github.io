@@ -15,7 +15,7 @@ body {
 /* Sidebar styles */
 .sidebar {
     background-color: #dcdcdc; /* Light gray color for the sidebar */
-    width: 140px;  /* Further narrow the sidebar */
+    width: 160px;  /* Narrower sidebar */
     height: 100vh;  /* Full height of the viewport */
     position: fixed;  /* Fix the sidebar to the left of the screen */
     top: 0;
@@ -29,16 +29,16 @@ nav ul {
 }
 
 nav ul li {
-    margin-bottom: 12px;  /* Reduced space between menu items */
+    margin-bottom: 20px;  /* Space between menu items */
     text-align: center;  /* Center the text */
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;  /* Dark color for the text */
-    font-size: 20px;  /* Slightly larger font size */
+    font-size: 18px;  /* Larger font size */
     display: block;  /* Make the entire area of the link clickable */
-    padding: 10px 12px;
+    padding: 12px 15px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -54,7 +54,7 @@ nav ul li a.active {
 
 /* Main content styles */
 .main-content {
-    margin-left: 140px;  /* Adjusted space for the narrower sidebar */
+    margin-left: 160px;  /* To give space for the sidebar */
     padding: 20px;
 }
 
@@ -65,11 +65,11 @@ nav ul li a.active {
 
 .home-header {
     display: flex;
-    align-items: flex-start;  /* Align photo and text at the top */
+    align-items: center;
 }
 
 .profile-img {
-    width: 120px;  /* Slightly reduced size of the image */
+    width: 150px;  /* Size the image appropriately */
     height: auto;
     margin-right: 20px;
 }
@@ -78,5 +78,4 @@ h1 {
     font-size: 28px;
     color: #87CEFA;  /* Blue color for the name */
     font-weight: bold;
-    align-self: flex-start;  /* Align the name with the top of the image */
 }
