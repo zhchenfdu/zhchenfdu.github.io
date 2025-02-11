@@ -51,3 +51,28 @@ nav ul li a.active {
     box-shadow: inset 4px 0 0 0 #87CEFA;  /* Add a left border to indicate active page */
     font-weight: bold;  /* Bold font for active item */
 }
+
+/* Home content */
+.home-content {
+    margin-left: 200px;  /* Add space for the sidebar */
+    padding: 20px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;  /* Ensure the image keeps its aspect ratio */
+    margin-right: 15px;
+}
+
+.profile-name {
+    font-size: 30px;
+    color: #1E90FF;  /* Blue color for the name */
+    font-weight: bold;  /* Make the name bold */
+}
