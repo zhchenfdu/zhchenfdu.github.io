@@ -42,7 +42,6 @@ nav ul li a {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Remove font-size change on click */
 nav ul li a:hover {
     background-color: #a8a8a8;  /* Hover effect with slightly darker gray */
     color: #000;  /* Darker text color on hover */
@@ -64,19 +63,20 @@ nav ul li a.active {
     display: none;  /* Hide all content by default */
 }
 
+/* Home page specific styles */
 .home-header {
     display: flex;
     align-items: center;
 }
 
 .profile-img {
-    width: 200px;  /* Enlarged image size for Home */
+    width: 250px;  /* Increased size of the profile image */
     height: auto;
     margin-right: 20px;
 }
 
 h1 {
-    font-size: 36px;  /* Increased font size for the name */
-    color: #0057b7;  /* Darker blue for the name */
+    font-size: 40px;  /* Significantly larger font size for the name */
+    color: #1E4D8A;  /* Darker blue color for the name */
     font-weight: bold;
 }
