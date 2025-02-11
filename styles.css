@@ -42,6 +42,7 @@ nav ul li a {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Remove font-size change on click */
 nav ul li a:hover {
     background-color: #a8a8a8;  /* Hover effect with slightly darker gray */
     color: #000;  /* Darker text color on hover */
@@ -69,13 +70,13 @@ nav ul li a.active {
 }
 
 .profile-img {
-    width: 150px;  /* Size the image appropriately */
+    width: 200px;  /* Enlarged image size for Home */
     height: auto;
     margin-right: 20px;
 }
 
 h1 {
-    font-size: 28px;
-    color: #87CEFA;  /* Blue color for the name */
+    font-size: 36px;  /* Increased font size for the name */
+    color: #0057b7;  /* Darker blue for the name */
     font-weight: bold;
 }
