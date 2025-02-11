@@ -52,27 +52,30 @@ nav ul li a.active {
     font-weight: bold;  /* Bold font for active item */
 }
 
-/* Home content */
-.home-content {
-    margin-left: 200px;  /* Add space for the sidebar */
+/* Main content styles */
+.main-content {
+    margin-left: 160px;  /* To give space for the sidebar */
     padding: 20px;
 }
 
-.profile-section {
+/* Content styles */
+.content {
+    display: none;  /* Hide all content by default */
+}
+
+.home-header {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .profile-img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;  /* Ensure the image keeps its aspect ratio */
-    margin-right: 15px;
+    width: 150px;  /* Size the image appropriately */
+    height: auto;
+    margin-right: 20px;
 }
 
-.profile-name {
-    font-size: 30px;
-    color: #1E90FF;  /* Blue color for the name */
-    font-weight: bold;  /* Make the name bold */
+h1 {
+    font-size: 28px;
+    color: #87CEFA;  /* Blue color for the name */
+    font-weight: bold;
 }
