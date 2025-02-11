@@ -15,7 +15,7 @@ body {
 /* Sidebar styles */
 .sidebar {
     background-color: #dcdcdc; /* Light gray color for the sidebar */
-    width: 200px;  /* Keep the sidebar narrow */
+    width: 160px;  /* Narrower sidebar */
     height: 100vh;  /* Full height of the viewport */
     position: fixed;  /* Fix the sidebar to the left of the screen */
     top: 0;
@@ -30,17 +30,24 @@ nav ul {
 
 nav ul li {
     margin-bottom: 20px;  /* Space between menu items */
+    text-align: center;  /* Center the text */
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;  /* Dark color for the text */
-    font-size: 16px;  /* Small font size */
+    font-size: 18px;  /* Larger font size */
     display: block;  /* Make the entire area of the link clickable */
-    padding: 10px 15px;
+    padding: 12px 15px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 nav ul li a:hover {
     background-color: #a8a8a8;  /* Hover effect with slightly darker gray */
     color: #000;  /* Darker text color on hover */
+}
+
+nav ul li a.active {
+    box-shadow: inset 4px 0 0 0 #87CEFA;  /* Add a left border to indicate active page */
+    font-weight: bold;  /* Bold font for active item */
 }
