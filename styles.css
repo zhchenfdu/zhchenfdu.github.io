@@ -66,18 +66,17 @@ nav ul li a.active {
 /* Home page specific styles */
 .home-header {
     display: flex;
-    align-items: flex-start;  /* Align text and image at the top */
+    align-items: center;
 }
 
 .profile-img {
-    width: 300px;  /* Significantly enlarged size for the profile image */
+    width: 300px;  /* Increased size of the profile image */
     height: auto;
     margin-right: 20px;
 }
 
 h1 {
-    font-size: 50px;  /* Larger font size for the name */
+    font-size: 40px;  /* Significantly larger font size for the name */
     color: #1E4D8A;  /* Darker blue color for the name */
     font-weight: bold;
-    line-height: 1.2;  /* Adjust line height to ensure good spacing */
 }
