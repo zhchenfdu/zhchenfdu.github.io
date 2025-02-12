@@ -128,7 +128,7 @@ nav ul li a.active {
 
 /* About Section */
 .about-section {
-    margin-top: 40px;  /* 与上一部分留出适当的空间，使其与头像部分有层次感 */
+    margin-top: 30px;  /* 与上一部分留出适当的空间，使其与头像部分有层次感 */
     max-width: 1400px;  /* About 栏的宽度 */
     margin-right: auto;  /* 使 About 部分居中 */
 }
