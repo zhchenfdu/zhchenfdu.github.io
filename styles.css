@@ -26,12 +26,10 @@ body {
 /* 侧边栏菜单列表的基础样式 */
 nav ul {
     list-style-type: none; /* 移除默认的列表样式（去掉小圆点） */
-    padding-left: 0; /* 移除默认的左内边距 */
 }
 
 /* 侧边栏菜单项（li）样式 */
 nav ul li {
-    margin-bottom: 0px;  /* 取消菜单项之间的外边距，确保每个菜单项紧密排列 */
     text-align: center;  /* 使菜单文字居中对齐 */
 }
 
@@ -149,17 +147,11 @@ nav ul li a.active {
     margin-top: 15px;  /* 让正文与横线的距离为 15px */
 }
 
-
 .about-section p {
     font-size: 20px;  /* 内容的字体大小 */
     line-height: 1.4;  /* 行间距，与个人信息部分一致 */
     margin-bottom: 15px;  /* 段落之间的间距，使内容不会显得过于紧凑 */
     text-align: justify;  /* 实现文字的两端对齐，平铺排版 */
-}
-
-/* 取消斜体的 emoji 部分 */
-.quote span {
-    font-style: normal;  /* 取消 emoji 部分的斜体 */
 }
 
 /* 高亮显示的链接样式 */
