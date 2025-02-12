@@ -69,24 +69,62 @@ nav ul li a.active {
     display: none;  /* 只有选中的内容会被显示 */
 }
 
-/* Home 页面的特殊样式 */
-/* 头像和名字的容器 */
+/* Home 页面的顶部布局 */
 .home-header {
-    display: flex;  /* 使用 Flexbox 进行水平排列 */
-    align-items: flex-start;  /* 确保名字与图片的顶部对齐 */
+    display: flex;  /* 让图片和文本水平排列 */
+    align-items: flex-start;  /* 让文本与图片顶部对齐 */
+    gap: 20px;  /* 图片和文字之间的间距 */
 }
 
 /* 个人头像样式 */
 .profile-img {
-    width: 220px;  /* 头像大小适度增加 */
-    height: auto;  /* 保持原始比例 */
-    margin-right: 20px;  /* 头像和姓名之间添加 20px 的间距 */
+    width: 180px;  /* 调整头像大小 */
+    height: auto;  /* 让高度自适应 */
+    border-radius: 5px;  /* 轻微的圆角，使图片更美观 */
 }
 
-/* 主页的名称（Zihao Chen）样式 */
-h1 {
-    font-size: 45px;  /* 字体大小显著增大 */
-    color: #1E4D8A;  /* 深蓝色字体，使其更具质感 */
-    font-weight: bold;  /* 加粗字体，强调名字 */
-    margin-top: 0; /* 避免顶部额外间距 */
+/* 个人信息区域 */
+.home-info {
+    flex: 1;  /* 让文字部分自动填充剩余空间 */
+    max-width: 500px;  /* 限制最大宽度，防止太宽 */
+}
+
+/* 主页大标题 */
+.home-info h1 {
+    font-size: 28px;  /* 字号适中 */
+    color: #1E4D8A;  /* 深蓝色，与图片风格匹配 */
+    font-weight: bold;  /* 加粗 */
+    margin-bottom: 5px;  /* 与下方分割线的距离 */
+}
+
+/* 标题下的分割线 */
+.home-info hr {
+    border: none;
+    border-top: 1px solid #bbb;  /* 浅灰色的底部分割线 */
+    margin-bottom: 10px;
+}
+
+/* 段落样式 */
+.home-info p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+/* 超链接样式（Email） */
+.home-info a {
+    color: #1E4D8A;  /* 深蓝色，与标题颜色一致 */
+    text-decoration: none;
+}
+
+.home-info a:hover {
+    text-decoration: underline;  /* 鼠标悬停时下划线 */
+}
+
+/* 引用语句 */
+.quote {
+    font-style: italic;
+    color: #555;  /* 比普通文本稍淡 */
+    text-align: right;  /* 右对齐 */
+    margin-top: 15px;  /* 上方留白 */
 }
