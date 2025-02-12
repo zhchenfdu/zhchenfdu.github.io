@@ -70,22 +70,23 @@ nav ul li a.active {
 }
 
 /* Home 页面的特殊样式 */
-/* 顶部区域，包含头像和名称 */
+/* 头像和名字的容器 */
 .home-header {
     display: flex;  /* 使用 Flexbox 进行水平排列 */
-    align-items: center;  /* 确保头像和名字在同一行垂直居中对齐 */
+    align-items: flex-start;  /* 确保名字与图片的顶部对齐 */
 }
 
 /* 个人头像样式 */
 .profile-img {
-    width: 200px;  /* 设置头像宽度为 200px，确保图片尺寸适中 */
-    height: auto;  /* 高度自动调整，保持原始比例 */
-    margin-right: 20px;  /* 头像和姓名之间添加 20px 的间距，使布局更舒适 */
+    width: 220px;  /* 头像大小适度增加 */
+    height: auto;  /* 保持原始比例 */
+    margin-right: 20px;  /* 头像和姓名之间添加 20px 的间距 */
 }
 
 /* 主页的名称（Zihao Chen）样式 */
 h1 {
-    font-size: 40px;  /* 进一步放大字号，使其更加突出 */
+    font-size: 45px;  /* 字体大小显著增大 */
     color: #1E4D8A;  /* 深蓝色字体，使其更具质感 */
     font-weight: bold;  /* 加粗字体，强调名字 */
+    margin-top: 0; /* 避免顶部额外间距 */
 }
