@@ -151,7 +151,7 @@ nav ul li a.active {
     font-size: 20px;  /* 内容的字体大小 */
     line-height: 1.4;  /* 行间距，与个人信息部分一致 */
     margin-bottom: 15px;  /* 段落之间的间距，使内容不会显得过于紧凑 */
-    text-align: justify;  /* 实现文字的两端对齐，平铺排版 */
+    /*text-align: justify;  /* 实现文字的两端对齐，平铺排版 */
 }
 
 /* 取消斜体的 emoji 部分 */
@@ -168,47 +168,4 @@ nav ul li a.active {
 
 .highlight-link:hover {
     text-decoration: underline;  /* 鼠标悬停时下划线 */
-}
-
-/* 设置通用的响应式布局，确保在小屏设备上正常显示 */
-@media screen and (max-width: 768px) {
-    /* 侧边栏样式调整 */
-    .sidebar {
-        width: 100%;  /* 侧边栏占满整个屏幕宽度 */
-        height: auto;  /* 高度自适应 */
-        position: relative;  /* 不固定在屏幕左侧，改为流式布局 */
-    }
-
-    /* 主内容区域样式调整 */
-    .main-content {
-        margin-left: 0;  /* 取消侧边栏的偏移 */
-        padding: 10px;  /* 减少内边距，避免内容过于拥挤 */
-    }
-
-    /* 头像的尺寸调整 */
-    .profile-img {
-        width: 150px;  /* 适配小屏设备，减小头像尺寸 */
-    }
-
-    /* 调整文字大小 */
-    .home-info h1 {
-        font-size: 30px;  /* 调整大标题字体大小 */
-    }
-
-    .home-info p {
-        font-size: 16px;  /* 减小段落文字的字体 */
-    }
-
-    /* About Section 样式调整 */
-    .about-section {
-        margin-top: 20px;  /* 减少上方的空白，适应小屏设备 */
-    }
-
-    .about-section h2 {
-        font-size: 28px;  /* 调整 About 标题的字体大小 */
-    }
-
-    .about-section p {
-        font-size: 16px;  /* 适配手机的段落文字大小 */
-    }
 }
