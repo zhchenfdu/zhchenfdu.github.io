@@ -84,7 +84,7 @@ nav ul li a.active {
 /* 个人信息区域 */
 .home-info {
     flex: 1;  /* 让文字部分自动填充剩余空间 */
-    max-width: 500px;  /* 限制最大宽度，防止太宽 */
+    max-width: 700px;  /* 限制最大宽度，防止太宽 */
 }
 
 /* 主页大标题 */
@@ -131,7 +131,7 @@ nav ul li a.active {
 /* About Section */
 .about-section {
     margin-top: 40px;  /* 与上一部分留出空间 */
-    max-width: 700px;  /* 缩小 About 部分的宽度，避免过于宽松 */
+    max-width: 1400px;  /* 缩小 About 部分的宽度，避免过于宽松 */
     margin-right: auto;  /* 使 About 部分居中 */
 }
 
@@ -152,4 +152,15 @@ nav ul li a.active {
 /* 取消斜体的 emoji 部分 */
 .quote span {
     font-style: normal;  /* 取消 emoji 部分的斜体 */
+}
+
+/* 高亮显示的链接样式 */
+.highlight-link {
+    color: #1E4D8A;  /* 蓝色链接，与标题颜色一致 */
+    font-weight: bold;  /* 加粗字体，突出显示 */
+    text-decoration: none;  /* 移除默认的下划线 */
+}
+
+.highlight-link:hover {
+    text-decoration: underline;  /* 鼠标悬停时下划线 */
 }
