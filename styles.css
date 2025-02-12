@@ -29,14 +29,14 @@ nav ul {
 }
 
 nav ul li {
-    margin-bottom: 10px;  /* Space between menu items */
+    margin-bottom: 0px;  /* Space between menu items */
     text-align: center;  /* Center the text */
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;  /* Dark color for the text */
-    font-size: 22px;  /* Larger font size */
+    font-size: 20px;  /* Larger font size */
     display: block;  /* Make the entire area of the link clickable */
     padding: 12px 15px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -70,7 +70,7 @@ nav ul li a.active {
 }
 
 .profile-img {
-    width: 180px;  /* Increased size of the profile image */
+    width: 200px;  /* Increased size of the profile image */
     height: auto;
     margin-right: 20px;
 }
