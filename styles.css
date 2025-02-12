@@ -84,7 +84,7 @@ nav ul li a.active {
 /* 个人信息区域 */
 .home-info {
     flex: 1;  /* 让文字部分自动填充剩余空间 */
-    max-width: 700px;  /* 限制最大宽度，防止太宽 */
+    max-width: 1380px;  /* 限制最大宽度，防止太宽 */
 }
 
 /* 主页大标题 */
@@ -131,12 +131,12 @@ nav ul li a.active {
 /* About Section */
 .about-section {
     margin-top: 40px;  /* 与上一部分留出空间 */
-    max-width: 1400px;  /* 缩小 About 部分的宽度，避免过于宽松 */
+    max-width: 1600px;  /* 将 About 栏的宽度调整为 1600px */
     margin-right: auto;  /* 使 About 部分居中 */
 }
 
 .about-section h2 {
-    font-size: 36px;  /* 将 About 字号调整为36px */
+    font-size: 32px;  /* 将 About 字号调整为32px */
     color: #1E4D8A;  /* 与 Zihao Chen 标题一致的蓝色 */
     font-weight: bold;  /* 加粗 */
     margin-bottom: 10px;  /* 与内容之间的间距 */
