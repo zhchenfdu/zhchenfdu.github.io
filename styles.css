@@ -84,7 +84,7 @@ nav ul li a.active {
 /* 个人信息区域 */
 .home-info {
     flex: 1;  /* 让文字部分自动填充剩余空间 */
-    max-width: 1380px;  /* 限制最大宽度，防止太宽 */
+    max-width: 1280px;  /* 限制最大宽度，防止太宽 */
 }
 
 /* 主页大标题 */
@@ -130,23 +130,24 @@ nav ul li a.active {
 
 /* About Section */
 .about-section {
-    margin-top: 40px;  /* 与上一部分留出空间 */
-    max-width: 1600px;  /* 将 About 栏的宽度调整为 1600px */
+    margin-top: 40px;  /* 与上一部分留出适当的空间，使其与头像部分有层次感 */
+    max-width: 1500px;  /* About 栏的宽度 */
     margin-right: auto;  /* 使 About 部分居中 */
 }
 
 .about-section h2 {
-    font-size: 32px;  /* 将 About 字号调整为32px */
-    color: #1E4D8A;  /* 与 Zihao Chen 标题一致的蓝色 */
+    font-size: 32px;  /* 将 About 字号调整为 32px */
+    color: #1E4D8A;  /* 深蓝色，与 Zihao Chen 标题一致 */
     font-weight: bold;  /* 加粗 */
-    margin-bottom: 10px;  /* 与内容之间的间距 */
+    margin-bottom: 5px;  /* 与横线的间距，调整为与 Zihao Chen 标题一致 */
+    padding-bottom: 5px;  /* 在标题下方增加一点间距，使排版更整齐 */
     border-bottom: 1px solid #bbb;  /* 在标题下添加横线 */
 }
 
 .about-section p {
     font-size: 20px;  /* 内容的字体大小 */
-    line-height: 1.4;  /* 行间距与个人信息部分一致 */
-    margin-bottom: 20px;  /* 段落之间的间距 */
+    line-height: 1.4;  /* 行间距，与个人信息部分一致 */
+    margin-bottom: 15px;  /* 段落之间的间距，使内容不会显得过于紧凑 */
 }
 
 /* 取消斜体的 emoji 部分 */
