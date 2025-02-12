@@ -1,82 +1,91 @@
-/* Reset the default margin and padding */
-* {
+/* 重置所有元素的默认外边距（margin）和内边距（padding），
+   并使用 `box-sizing: border-box`，确保所有元素的宽高计算包含内边距和边框，而不会额外增加 */
+   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body settings */
+/* 全局 body 样式 */
 body {
-    font-family: 'Georgia', serif;
-    background-color: #f0f0f0;  /* Light gray background */
-    color: #333;  /* Dark text color for readability */
+    font-family: 'Georgia', serif;  /* 设置全局字体为 Georgia，高端优雅的衬线字体 */
+    background-color: #f0f0f0;  /* 设置页面背景颜色为浅灰色 */
+    color: #333;  /* 全局文本颜色设为深灰色，提高可读性 */
 }
 
-/* Sidebar styles */
+/* 侧边栏样式 */
 .sidebar {
-    background-color: #dcdcdc; /* Light gray color for the sidebar */
-    width: 160px;  /* Narrower sidebar */
-    height: 100vh;  /* Full height of the viewport */
-    position: fixed;  /* Fix the sidebar to the left of the screen */
+    background-color: #dcdcdc; /* 侧边栏背景色为较浅的灰色 */
+    width: 160px;  /* 侧边栏宽度较窄，占据160px */
+    height: 100vh;  /* 使侧边栏的高度始终与视口等高，占满整个屏幕高度 */
+    position: fixed;  /* 固定在页面左侧，即使滚动页面也不会移动 */
     top: 0;
     left: 0;
-    padding-top: 20px;  /* Padding from the top */
+    padding-top: 20px;  /* 顶部留白20px，避免内容紧贴浏览器边缘 */
 }
 
+/* 侧边栏菜单列表的基础样式 */
 nav ul {
-    list-style-type: none;
-    padding-left: 0;
+    list-style-type: none; /* 移除默认的列表样式（去掉小圆点） */
+    padding-left: 0; /* 移除默认的左内边距 */
 }
 
+/* 侧边栏菜单项（li）样式 */
 nav ul li {
-    margin-bottom: 0px;  /* Space between menu items */
-    text-align: center;  /* Center the text */
+    margin-bottom: 0px;  /* 取消菜单项之间的外边距，确保每个菜单项紧密排列 */
+    text-align: center;  /* 使菜单文字居中对齐 */
 }
 
+/* 侧边栏菜单项的链接样式 */
 nav ul li a {
-    text-decoration: none;
-    color: #333;  /* Dark color for the text */
-    font-size: 20px;  /* Larger font size */
-    display: block;  /* Make the entire area of the link clickable */
-    padding: 12px 15px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none; /* 去掉超链接的默认下划线 */
+    color: #333;  /* 文字颜色设为深灰色 */
+    font-size: 20px;  /* 适度增大字体，提高可读性 */
+    display: block;  /* 让链接区域变成块级元素，使整个区域都可点击 */
+    padding: 12px 15px;  /* 增加内边距，使点击区域更大，提高用户体验 */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* 添加过渡效果，使背景色和阴影的变化更平滑 */
 }
 
+/* 鼠标悬停时的菜单项样式 */
 nav ul li a:hover {
-    background-color: #a8a8a8;  /* Hover effect with slightly darker gray */
-    color: #000;  /* Darker text color on hover */
+    background-color: #a8a8a8;  /* 鼠标悬停时，背景色变为稍深的灰色 */
+    color: #000;  /* 文字颜色变为纯黑色，提高对比度 */
 }
 
+/* 当前选中的菜单项（即 active 状态）样式 */
 nav ul li a.active {
-    box-shadow: inset 4px 0 0 0 #87CEFA;  /* Add a left border to indicate active page */
-    font-weight: bold;  /* Bold font for active item */
+    box-shadow: inset 4px 0 0 0 #87CEFA;  /* 在当前选中的菜单项左侧添加一个 4px 宽的蓝色内阴影，标识当前页面 */
+    font-weight: bold;  /* 选中项加粗 */
 }
 
-/* Main content styles */
+/* 主内容区域样式 */
 .main-content {
-    margin-left: 160px;  /* To give space for the sidebar */
-    padding: 20px;
+    margin-left: 160px;  /* 由于侧边栏宽度为 160px，因此主内容区域要向右偏移 160px，避免被侧边栏覆盖 */
+    padding: 20px;  /* 添加 20px 内边距，使内容区域更加美观 */
 }
 
-/* Content styles */
+/* 隐藏所有内容区块，默认情况下不会显示 */
 .content {
-    display: none;  /* Hide all content by default */
+    display: none;  /* 只有选中的内容会被显示 */
 }
 
-/* Home page specific styles */
+/* Home 页面的特殊样式 */
+/* 顶部区域，包含头像和名称 */
 .home-header {
-    display: flex;
-    align-items: center;
+    display: flex;  /* 使用 Flexbox 进行水平排列 */
+    align-items: center;  /* 确保头像和名字在同一行垂直居中对齐 */
 }
 
+/* 个人头像样式 */
 .profile-img {
-    width: 200px;  /* Increased size of the profile image */
-    height: auto;
-    margin-right: 20px;
+    width: 200px;  /* 设置头像宽度为 200px，确保图片尺寸适中 */
+    height: auto;  /* 高度自动调整，保持原始比例 */
+    margin-right: 20px;  /* 头像和姓名之间添加 20px 的间距，使布局更舒适 */
 }
 
+/* 主页的名称（Zihao Chen）样式 */
 h1 {
-    font-size: 40px;  /* Significantly larger font size for the name */
-    color: #1E4D8A;  /* Darker blue color for the name */
-    font-weight: bold;
+    font-size: 40px;  /* 进一步放大字号，使其更加突出 */
+    color: #1E4D8A;  /* 深蓝色字体，使其更具质感 */
+    font-weight: bold;  /* 加粗字体，强调名字 */
 }
