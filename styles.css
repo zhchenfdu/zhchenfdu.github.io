@@ -151,7 +151,7 @@ nav ul li a.active {
     font-size: 20px;  /* 内容的字体大小 */
     line-height: 1.4;  /* 行间距，与个人信息部分一致 */
     margin-bottom: 15px;  /* 段落之间的间距，使内容不会显得过于紧凑 */
-    /*text-align: justify;  /* 实现文字的两端对齐，平铺排版 */
+    text-align: justify;  /* 实现文字的两端对齐，平铺排版 */
 }
 
 /* 取消斜体的 emoji 部分 */
