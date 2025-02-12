@@ -1,6 +1,5 @@
-/* 重置所有元素的默认外边距（margin）和内边距（padding），
-   并使用 `box-sizing: border-box`，确保所有元素的宽高计算包含内边距和边框，而不会额外增加 */
-   * {
+/* 重置所有元素的默认外边距（margin）和内边距（padding），并使用 `box-sizing: border-box` */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -126,6 +125,7 @@ nav ul li a.active {
     color: #555;  /* 比普通文本稍淡 */
     text-align: right;  /* 右对齐 */
     margin-top: 15px;  /* 上方留白 */
+    white-space: nowrap; /* 防止换行 */
 }
 
 /* About Section */
@@ -134,14 +134,16 @@ nav ul li a.active {
 }
 
 .about-section h2 {
-    font-size: 26px;  /* 标题字号稍大 */
-    color: #1E4D8A;  /* 与 Zihao Chen 标题一致的蓝色 */
+    font-size: 40px;  /* 标题字号与 Zihao Chen 一致 */
+    color: #1E4D8A;  /* 深蓝色 */
     font-weight: bold;  /* 加粗 */
-    margin-bottom: 20px;  /* 与内容之间的间距 */
+    margin-bottom: 15px;  /* 与内容之间的间距 */
+    border-top: 1px solid #bbb;  /* 添加顶部横线 */
+    padding-top: 10px;  /* 增加顶部留白 */
 }
 
 .about-section p {
-    font-size: 16px;  /* 内容的字体大小 */
-    line-height: 1.6;  /* 增加行间距，提高可读性 */
-    margin-bottom: 10px;  /* 段落之间的间距 */
+    font-size: 20px;  /* 内容的字体大小 */
+    line-height: 1.4;  /* 行间距与个人信息部分一致 */
+    margin-bottom: 20px;  /* 段落之间的间距 */
 }
