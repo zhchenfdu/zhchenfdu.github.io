@@ -131,19 +131,25 @@ nav ul li a.active {
 /* About Section */
 .about-section {
     margin-top: 40px;  /* 与上一部分留出空间 */
+    max-width: 700px;  /* 缩小 About 部分的宽度，避免过于宽松 */
+    margin-right: auto;  /* 使 About 部分居中 */
 }
 
 .about-section h2 {
-    font-size: 40px;  /* 标题字号与 Zihao Chen 一致 */
-    color: #1E4D8A;  /* 深蓝色 */
+    font-size: 36px;  /* 将 About 字号调整为36px */
+    color: #1E4D8A;  /* 与 Zihao Chen 标题一致的蓝色 */
     font-weight: bold;  /* 加粗 */
-    margin-bottom: 15px;  /* 与内容之间的间距 */
-    border-top: 1px solid #bbb;  /* 添加顶部横线 */
-    padding-top: 10px;  /* 增加顶部留白 */
+    margin-bottom: 10px;  /* 与内容之间的间距 */
+    border-bottom: 1px solid #bbb;  /* 在标题下添加横线 */
 }
 
 .about-section p {
     font-size: 20px;  /* 内容的字体大小 */
     line-height: 1.4;  /* 行间距与个人信息部分一致 */
     margin-bottom: 20px;  /* 段落之间的间距 */
+}
+
+/* 取消斜体的 emoji 部分 */
+.quote span {
+    font-style: normal;  /* 取消 emoji 部分的斜体 */
 }
