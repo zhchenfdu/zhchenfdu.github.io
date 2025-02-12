@@ -78,9 +78,8 @@ nav ul li a.active {
 
 /* 个人头像样式 */
 .profile-img {
-    width: 180px;  /* 调整头像大小 */
+    width: 200px;  /* 调整头像大小 */
     height: auto;  /* 让高度自适应 */
-    border-radius: 5px;  /* 轻微的圆角，使图片更美观 */
 }
 
 /* 个人信息区域 */
@@ -91,7 +90,7 @@ nav ul li a.active {
 
 /* 主页大标题 */
 .home-info h1 {
-    font-size: 28px;  /* 字号适中 */
+    font-size: 40px;  /* 字号适中 */
     color: #1E4D8A;  /* 深蓝色，与图片风格匹配 */
     font-weight: bold;  /* 加粗 */
     margin-bottom: 5px;  /* 与下方分割线的距离 */
@@ -106,7 +105,7 @@ nav ul li a.active {
 
 /* 段落样式 */
 .home-info p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.4;
     margin-bottom: 8px;
 }
