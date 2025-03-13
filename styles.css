@@ -207,24 +207,22 @@ nav ul li a.active {
     margin-bottom: 10px;  /* 设置每个列表项的间距 */
 }
 
-.cv-body a {
-    color: #1E4D8A;  /* 设置链接的颜色为深蓝色 */
-    text-decoration: none;  /* 去掉默认的下划线 */
-    font-weight: bold;  /* 链接文字加粗 */
-}
-
-.cv-body a:hover {
-    text-decoration: underline;  /* 鼠标悬停时添加下划线 */
-}
-
+/* 英文简历的链接样式 */
 .cv-en {
     color: #1E4D8A;  /* 蓝色高亮 */
     font-weight: bold;  /* 加粗字体 */
     text-decoration: none;  /* 去掉下划线 */
+    margin-right: 10px;  /* 设置右侧间距，避免与竖线重叠 */
 }
 
 .cv-en:hover {
     text-decoration: underline;  /* 鼠标悬停时显示下划线 */
+}
+
+/* 竖线分隔符样式 */
+.separator {
+    color: #333;  /* 设置竖线的颜色为深灰色 */
+    margin: 0 10px;  /* 设置竖线与文字之间的间距 */
 }
 
 /* 中文简历的链接样式 */
