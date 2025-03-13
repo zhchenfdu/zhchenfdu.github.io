@@ -224,7 +224,7 @@ nav ul li a.active {
 /* 竖线分隔符样式 */
 .separator {
     color: #333;  /* 竖线颜色 */
-    margin: 10 10px;  /* 给竖线左右设置间距 */
+    margin: 0 10px;  /* 给竖线左右设置间距 */
     font-size: 24px;  /* 设置竖线的大小 */
 }
 
