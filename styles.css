@@ -216,3 +216,24 @@ nav ul li a.active {
 .cv-body a:hover {
     text-decoration: underline;  /* 鼠标悬停时添加下划线 */
 }
+
+.cv-en {
+    color: #1E4D8A;  /* 蓝色高亮 */
+    font-weight: bold;  /* 加粗字体 */
+    text-decoration: none;  /* 去掉下划线 */
+}
+
+.cv-en:hover {
+    text-decoration: underline;  /* 鼠标悬停时显示下划线 */
+}
+
+/* 中文简历的链接样式 */
+.cv-cn {
+    color: #D32F2F;  /* 红色高亮 */
+    font-weight: bold;  /* 加粗字体 */
+    text-decoration: none;  /* 去掉下划线 */
+}
+
+.cv-cn:hover {
+    text-decoration: underline;  /* 鼠标悬停时显示下划线 */
+}
