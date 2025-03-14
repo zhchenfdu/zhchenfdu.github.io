@@ -303,3 +303,54 @@ nav ul li a.active {
     margin-left: 0;  /* 确保左对齐 */
 }
 
+/* Publications 主标题 */
+#publications {
+    margin-left: 0px;  /* 距离左侧菜单栏的距离 */
+    padding: 0px;  /* 设置内边距 */
+    text-align: justify;  /* 实现文字的两端对齐 */
+}
+
+/* Publications 小标题样式 */
+.publications-section h2 {
+    font-size: 32px;  /* 设置主标题字体大小 */
+    color: #1E4D8A;  /* 深蓝色 */
+    font-weight: bold;  /* 加粗 */
+    margin-bottom: 15px;  /* 与内容间距 */
+    padding-bottom: 5px;  /* 与下方横线间距 */
+    border-bottom: 1px solid #bbb;  /* 添加底部横线 */
+    text-align: justify;  /* 实现文字的两端对齐 */
+}
+
+
+/* 论文列表样式 */
+.publications-section ul {
+    list-style-type: none;  /* 去除列表圆点 */
+    padding-left: 0;  /* 取消默认缩进 */
+    margin-bottom: 0;  /* 取消底部间距 */
+    text-align: justify;  /* 实现文字的两端对齐 */
+}
+
+/* 每个论文条目的样式 */
+.publications-section ul li {
+    font-size: 20px;  /* 与主页正文一致 */
+    line-height: 1.4;  /* 增加行距，提高可读性 */
+    margin-bottom: 15px;  /* 每篇论文间隔 */
+    text-align: justify;  /* 实现文字的两端对齐 */
+}
+
+/* 论文标题样式 */
+.paper-title em {
+    font-style: italic;  /* 使论文标题斜体 */
+}
+
+/* 作者姓名加粗 */
+.paper-title strong {
+    font-weight: bold;  /* 让 Zihao Chen 的名字加粗 */
+}
+
+/* 设置最大宽度，避免太宽 */
+.publications-section {
+    max-width: 1400px;  /* 设置最大宽度，确保与主页其他部分匹配 */
+    margin-right: auto;
+    margin-left: 0;
+}
